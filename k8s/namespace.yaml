@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: safety-dashboard
+  labels:
+    name: safety-dashboard
+    tier: production
+    app.kubernetes.io/name: executive-safety-dashboard
+    app.kubernetes.io/instance: production
+    app.kubernetes.io/version: "1.0.0"
+    app.kubernetes.io/component: namespace
+    app.kubernetes.io/part-of: safety-dashboard
+    app.kubernetes.io/managed-by: kubernetes
